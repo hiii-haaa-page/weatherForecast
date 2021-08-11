@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WeatherForecast</title>
+  </head>
+  <body>
+    <div class="app-wrap">
+      <div class="container">
+        <div class="slider">
+          <ul class="weather">
+            <li class="weatherCard">
+              <div class="weatherCard__item">
+                <h2 class="weatherCard__item__ttl"></h2>
+                <img src="" alt="" class="weatherCard__item__image" />
+                <div class="weatherCard__item__th">
+                  <p class="weatherCard__item__th__temprature"></p>
+                  <span>/</span>
+                  <p class="weatherCard__item__th__humidity"></p>
+                  <p id="test"></p>
+                </div>
+              </div>
+            </li>
+            <li class="weatherCard">
+              <div class="weatherCard__item">
+                <h2 class="weatherCard__item__ttl"></h2>
+                <img src="" alt="" class="weatherCard__item__image" />
+                <div class="weatherCard__item__th">
+                  <p class="weatherCard__item__th__temprature"></p>
+                  <span>/</span>
+                  <p class="weatherCard__item__th__humidity"></p>
+                </div>
+              </div>
+            </li>
+            <li class="weatherCard">
+              <div class="weatherCard__item">
+                <h2 class="weatherCard__item__ttl"></h2>
+                <img src="" alt="" class="weatherCard__item__image" />
+                <div class="weatherCard__item__th">
+                  <p class="weatherCard__item__th__temprature"></p>
+                  <span>/</span>
+                  <p class="weatherCard__item__th__humidity"></p>
+                </div>
+              </div>
+            </li>
+            <li class="weatherCard">
+              <div class="weatherCard__item">
+                <h2 class="weatherCard__item__ttl"></h2>
+                <img src="" alt="" class="weatherCard__item__image" />
+                <div class="weatherCard__item__th">
+                  <p class="weatherCard__item__th__temprature"></p>
+                  <span>/</span>
+                  <p class="weatherCard__item__th__humidity"></p>
+                </div>
+              </div>
+            </li>
+            <li class="weatherCard">
+              <div class="weatherCard__item">
+                <h2 class="weatherCard__item__ttl"></h2>
+                <img src="" alt="" class="weatherCard__item__image" />
+                <div class="weatherCard__item__th">
+                  <p class="weatherCard__item__th__temprature"></p>
+                  <span>/</span>
+                  <p class="weatherCard__item__th__humidity"></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-control">
+        <button id="prev">
+          <i class="fas fa-angle-left fa-4x icon-color-left next"></i>
+        </button>
+        <nav class="carusel-dots"></nav>
+        <button id="next">
+          <i class="fas fa-angle-right fa-4x icon-color-right prev"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
